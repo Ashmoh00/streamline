@@ -5,6 +5,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+
 
 
 
@@ -27,6 +29,7 @@ if st.button("Submit"):
         st.write(result)  # Display the output from the BILSTM function
     else:
         st.error("Please enter a stock code to proceed.")  # Show an error message if the input is empty
+
 
 
 
